@@ -15,6 +15,25 @@
             opacity: 0;
         }
 
+        .i-slider__item {
+            animation-duration: 2s !important;
+            animation-delay: 0s !important;
+        }
+
+        @keyframes fade {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
         @media screen and (max-width: 991px) {
 
             .header nav {
